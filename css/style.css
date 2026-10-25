@@ -51,12 +51,14 @@ h2 {
     text-transform: uppercase;
     font-size: 4rem;
     margin-bottom: 2.5rem;
+    color: #F2F2F2;
 }
 
 p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     margin-bottom: 2.5rem;
+    color: #FFFFFF;
 }
 
 img {
@@ -124,5 +126,23 @@ main .box2 {
 main .box3 {
     border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
     box-shadow: -0.8rem 0 #006971;
+}
+
+main .link1:hover {
+    background-color: #E28625;
+    color: #FFFFFF;
+    border: #FFFFFF solid 0.2rem;
+}
+
+main .link2:hover {
+    background-color: #006971;
+    color: #FFFFFF;
+    border: #FFFFFF solid 0.2rem;
+}
+
+main .link3:hover {
+    background-color: #004140;
+    color: #FFFFFF;
+    border: #FFFFFF solid 0.2rem;
 }
 }
