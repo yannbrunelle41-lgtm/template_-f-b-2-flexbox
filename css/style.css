@@ -1,0 +1,128 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Lexend Deca';
+}
+
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lexend-deca-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* big-shoulders-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Big Shoulders';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/big-shoulders-v4-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+section {
+    padding: 4.8rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.box1 {
+    background-color: #E28625;
+
+}
+
+.box2 {
+    background-color: #006971;
+    box-shadow: 0 -0.8rem #E28625; /* je voulais que la couleur de la section précédente soit visible derrière la couleur de la section suivante */
+}
+
+.box3 {
+    background-color: #004140;
+    box-shadow: 0 -0.8rem #006971;
+}
+
+h2 {
+    font-family: 'Big Shoulders';
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+img {
+    margin-bottom: 3.5rem;
+}
+
+section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #F2F2F2;
+    border-radius: 25rem;
+    width: 14.6rem;
+    height: 4.8rem;
+}
+
+.link1 {
+    color: #E28625;
+}
+
+.link2 {
+    color: #006971;
+}
+
+.link3 {
+    color: #004140;
+}
+
+@media (min-width: 786px) {
+
+main {
+    display: flex;
+}
+    
+main section {
+    border-radius: 0.8rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main section p {
+    margin-bottom: auto;
+}
+
+main section a {
+    margin-top: 8.3rem;
+}
+
+main section img {
+    width: 6.4rem;
+}
+
+main .box1 {
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+
+main .box2 {
+    border-radius: 0.8rem 0 0 0.8rem;
+    box-shadow: -0.8rem 0 #E28625; /* je voulais que la couleur de la section précédente soit visible derrière la couleur de la section suivante */
+}
+
+main .box3 {
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+    box-shadow: -0.8rem 0 #006971;
+}
+}
